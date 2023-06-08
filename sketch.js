@@ -9,8 +9,8 @@ var radius = 70;
 
 function preload(){
 
-	//dustbinImg = loadImage("dustbin.png");
-	//paperImg = loadImage("paper.png");
+	dustbinImg = loadImage("dustbin.png");
+	paperImg = loadImage("paper.png");
 
 	//dustbinImg = addImage("dustbin.png");
 	//paperImg = addImage("paper.png");
@@ -65,13 +65,13 @@ function draw() {
 	//image(paperImg,ball.position.y,ball.position.x,radius,radius);
 	//image(paperImg,ball.position.x,ball.position.y,radius/2,radius/2);
 	//ellipse(ball.position.x,ball.position.y,radius,radius);
-	//image(paperImg,ball.position.x,ball.position.y,radius,radius);
+	image(paperImg,ball.position.x,ball.position.y,radius,radius);
 
 
 	
 	//image(1185, 570, 200,200);
 	//rect(1185, 570, 200,200);
-	//image(dustbinImg, 1185, 570, 200,200);
+	image(dustbinImg, 1185, 570, 200,200);
 	//ellipse(1185, 570, 200,200)
 
 
